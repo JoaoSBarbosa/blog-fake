@@ -1,0 +1,122 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+.container h1{
+  font-size: 1.9rem;
+  margin: 1rem 0;
+  text-transform: uppercase;
+}
+h2{
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+h2:hover{
+  color: #003b35;
+  cursor: pointer;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem auto;
+  max-width: 1200px;
+  color: #666868;
+  border: 1px solid #ade0db;
+  border-radius: 10px;
+}
+
+legend{
+  text-align: center;
+  font-size: 1.3rem;
+}
+fieldset{
+  text-align: center;
+  width: 40vw;
+  padding: 10px;
+  border-radius: 5px;
+  border: 3px solid #bcebdf;
+  border: 3px solid #5ecde0;
+  margin-bottom: 2rem;
+  background-color: #f8f7f7;
+
+}
+input,
+textarea{
+  margin: 5px 0;
+  width: 100%;
+  border-radius: 5px;
+  border: 3px solid #e0e0e0;
+  transition: 0.5s;
+  outline: none;
+  padding: 10px 2px;
+}
+
+textarea{
+  resize: none;
+  height: 150px;
+}
+input:focus,
+textarea:focus {
+  border: 3px solid #5ecde0;
+}
+button{
+  background-color: #5ecde0;
+  color: #fff;
+  padding: 10px 35px;
+  border: 2px solid #ebf2f2;
+  border-radius: 10px;
+  transition: 0.5s;
+  font-size: 1.2rem;
+}
+
+button:hover{
+  background-color: #00fff2;
+  color: #000;
+}
+.post{
+  padding: 10px;
+}
+.car{
+  font-size: 2rem;
+  color: #26979f;
+  margin: 1rem 0;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: #1b8798;
+}
+a:hover{
+  color: #142433;
+  text-decoration: underline;
+}
+footer.container{
+  border: none;
+}
+@media (min-width:2560px) {
+  h1{
+    font-size: 5rem;
+  }
+  legend{
+    font-size: 3rem;
+  }
+  input,
+  textarea{
+  margin: 10px 0;
+  padding: 20px 6px;
+  font-size: 2rem;
+}
+  fieldset{
+    width: 65vw;
+  }
+  textarea{
+    height: 450px;
+  }
+  button{
+    font-size: 3rem;
+  }
+  
+}
